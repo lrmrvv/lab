@@ -12,8 +12,8 @@ int main() {
     cin >> N;
     
     // Создаем массивы A и B
-    int A[M];
-    int B[N];
+    int* A = new int [M];
+    int* B = new int [N];
 
     // Ввод элементов массива A
     cout << "Введите элементы массива A:" << endl;
